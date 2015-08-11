@@ -1,0 +1,396 @@
+body {
+	background-image: url(http://wallrere.com/wp-content/uploads/2015/05/white-background-wallpaper-2956247.jpg);
+}
+
+/*Navigation Bar*/
+.nav-bar {
+	background-color: #a94444;
+	width: auto;
+	text-align: center;
+	height: 70px;
+	position: relative; 
+	margin-bottom: 20px;
+	text-align: center;
+	border-radius: 10px;
+	border-style: solid;
+	border-color: #000;
+}
+
+.nav-bar #refreshBtnContainer {
+	float: left;
+	width: 80px;
+	height: 60px;
+	margin-top: 2px;
+  	margin-left: 20px;	
+}
+
+.nav-bar #refreshBtnContainer #refreshBtn {
+	font-size: 29px;
+	border: none;
+	background: none;
+	padding: 0;
+	color: white;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	cursor: pointer;
+}
+
+.nav-bar #title {
+	display: inline-block;
+	width: 550px;
+	margin: 0 auto;
+	height: 100px;
+	font-size: 50px;
+	color: white;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.nav-bar #merge {
+	width: 140px;
+	height: 60px;
+	float: right;
+	margin-top: 2px;
+	margin-right: 10px;	
+}
+
+.nav-bar #merge #mergebtn {
+	font-size: 29px;
+	border: none;
+	background: none;
+	padding: 0;
+	color: white;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	cursor: pointer;
+}
+
+.content {
+	width: 1090px;
+	height: 1120px;
+	background-color: #a94444; 
+	margin: auto;
+	border-radius: 30px;
+	border-style: solid;
+	border-color: #000;
+}
+
+/*ImageUpload*/
+.content .top-container {
+	margin-top: 32px;
+	position: absolute;
+	width: 1090px;
+	height: 490px;
+}
+
+.content .top-container #SingleImageContainer {
+	position: absolute;
+	background-color: lightgrey;
+	left: 28%;
+	width: 480px;
+	height: 384px;
+}
+
+.content .top-container #SingleImageContainer .image-upload {
+	height: 432px;
+	background-color: lightgrey;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+
+.content .top-container #SingleImageContainer .error-box {
+	height: 48px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 30px;
+	color: white;
+	text-align: center;
+}
+
+.content .top-container #SingleImageContainer .image-upload .button-container {
+	height: 48px;
+}
+
+.content .top-container #SingleImageContainer .image-upload .button-container .image-btn {
+	font-size: 30px;
+	width: 240px;
+	height: 48px; 
+	float: left;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	cursor: pointer;
+}
+
+.content .top-container #SingleImageContainer .image-upload .button-container .url-btn {
+	font-size: 30px;
+	width: 240px;
+	height: 48px; 
+	float: right;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	cursor: pointer;
+}
+
+.content .top-container #SingleImageContainer .image-upload .image-container {
+	height: 384px; 
+	width: 480px;	 
+	overflow: auto;
+	border: 1px solid;
+	border-bottom-left-radius: 18px;
+	border-bottom-right-radius: 18px;
+}
+
+.content .top-container #SingleImageContainer .image-upload .image-container .single input {
+	margin-left: 34%;
+	width: 170px;
+}
+
+.content .top-container #SingleImageContainer .image-upload .image-container .url-reader {
+	width: 245px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.content .top-container #SingleImageContainer .image-upload .image-container input {
+	width: 248px;
+	margin-top: 170px;
+	font-size: 28px;
+}
+
+.content .top-container #SingleImageContainer .image-upload .image-container .url-reader button {
+	font-size: 25px;
+	width: 252px;
+	height: 35px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.content .top-container #SingleImageContainer .image-upload .image-container .viewer {
+	width: 480px;
+	height: 384px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	display: block; 
+		 
+}
+
+.content .top-container #SingleImageContainer .image-upload .image-container .viewer canvas {
+	padding-left: 0;
+	padding-right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 60px;
+	display: block;
+	width: auto;
+}
+
+.content .top-container #SingleImageContainer .image-upload .image-container .viewer .uploadBtn {
+	position: absolute;
+	top: 50%;
+	left: calc(34%);
+}
+
+/*unmerge-button*/
+.mid-container {
+	padding-top: 48%;
+	height: 100px;
+	width: 1090px;
+}
+
+.mid-container #btnUnmergeContainer {
+	width: 1090px;
+}
+
+.mid-container #btnUnmergeContainer .unmerge-button {
+	margin-left: 42%;
+	font-size: 30px;
+	width: 170px;
+	height: 50px;
+	border-radius: 10px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+/*UnmergeContainer -- bot-container*/
+.content .bot-container {
+	width: 1090px;
+	height: 500px;
+}
+
+.content #imageUnmergeFirst {
+	position: relative;
+	width: 480px;
+	height: 480px;
+	float: left;
+	background-color: lightgrey;
+	overflow: auto; 
+	border-radius: 15px;
+	border-style: solid;
+	border-color: #000;
+	margin-left: 12px;
+}
+
+.content .bot-container #imageUnmergeFirst canvas {
+	padding-left: 0;
+	padding-right: 0;
+	margin-top: 130px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: auto;
+	display: block;
+	width: auto;    		
+}
+
+.content #imageUnmergeSecond {
+	position: relative;
+	width: 480px;
+	height: 480px;
+	float: right;
+	background-color: lightgrey;
+	overflow: auto; 
+	border-radius: 15px;
+	border-style: solid;
+	border-color: #000;   
+	margin-right: 12px;
+}
+
+.content .bot-container #imageUnmergeSecond canvas {
+	padding-left: 0;
+	padding-right: 0;
+	margin-top: 130px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: auto;
+	display: block;
+	width: auto;   
+}
+
+.bot-container #imageUnmergeFirst .download-btn {
+	position: absolute;  
+	z-index: 100;    
+	left: calc(34%);
+	top: 52%; 
+} 
+
+.bot-container #imageUnmergeSecond .download-btn {
+	position: absolute;
+	z-index: 100;
+	right: calc(34%);
+	top: 52%;
+} 
+
+
+.download-btn {
+	font-size: 30px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	border: solid 1px #20538D;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+	background: #FFF;
+	color: #000;
+	padding: 8px 12px;
+	text-decoration: none;
+	cursor :pointer;
+}
+
+.url-btn {
+	font-size: 30px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	border: solid 1px #20538D;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+	background: #FFF;
+	color: #000;
+	padding: 8px 12px;
+	text-decoration: none;
+}
+
+.image-btn {
+	font-size: 30px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	border: solid 1px #20538D;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+	background: #FFF;
+	color: #000;
+	padding: 8px 12px;
+	text-decoration: none;
+}
+
+.uploadBtn {
+	position: relative;
+	display:block;
+	height: 45px;
+	width: 150px;
+	margin: 10px 7px;
+	padding: 5px 5px;
+	font-weight: 700;
+	font-size: 30px;
+	letter-spacing: 2px;
+	color: #fff;
+	border: 2px #fff solid;
+	border-radius: 4px;
+	text-transform: uppercase;
+	outline: 0;
+	overflow:hidden;
+	background: none;
+	z-index: 1;
+	cursor: pointer;
+	transition:         0.08s ease-in;
+	-o-transition:      0.08s ease-in;
+	-ms-transition:     0.08s ease-in;
+	-moz-transition:    0.08s ease-in;
+	-webkit-transition: 0.08s ease-in;
+}
+
+.unmerge-button {
+	position: relative;
+	display:block;
+	margin: 10px 7px;
+	padding: 5px 5px;
+	font-weight: 700;
+	font-size: 15px;
+	letter-spacing: 2px;
+	color: #fff;
+	border: 2px #fff solid;
+	border-radius: 4px;
+	text-transform: uppercase;
+	outline: 0;
+	overflow:hidden;
+	background: none;
+	z-index: 1;
+	cursor: pointer;
+	transition:         0.08s ease-in;
+	-o-transition:      0.08s ease-in;
+	-ms-transition:     0.08s ease-in;
+	-moz-transition:    0.08s ease-in;
+	-webkit-transition: 0.08s ease-in;
+}
+
+.fill:hover {
+	color: whitesmoke;
+}
+
+.fill:before {
+	content: "";
+	position: absolute;
+	background: #000;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 100%;
+	z-index: -1;
+	-webkit-transition: top 0.09s ease-in;
+}
+
+.fill:hover:before {
+	top: 0;
+}
